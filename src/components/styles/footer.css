@@ -1,0 +1,15 @@
+#footer{
+  margin-top:20px;
+  background:#34495e;
+  padding:1.4em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  letter-spacing:-1px;
+  font-size:.90em;
+}
+
+#footer i{
+  color:red;
+}

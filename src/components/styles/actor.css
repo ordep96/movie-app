@@ -1,0 +1,26 @@
+.actor{
+  display:grid;
+  grid-template-rows:300px 1fr;
+}
+
+.actor .actor__head img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  box-shadow:0 0 3px rgba(0,0,0,.3);
+}
+
+.actor .actor__body{
+  padding:.40em;
+  background:#fff;
+  box-shadow:0 0 3px rgba(0,0,0,.3);
+}
+
+.actor .actor__body h2{
+  font-size:.90em;
+}
+
+.actor .actor__body p{
+  font-size:.85em;
+}

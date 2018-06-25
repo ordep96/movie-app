@@ -1,0 +1,76 @@
+.banner-movie{
+   padding:30px 0;
+   position:relative;
+}
+
+.banner-movie .overlay{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background:rgba(52,73,94,.8);
+}
+
+
+.banner{
+  position:relative;
+  display:grid;
+  grid-template-columns:300px 1fr;
+}
+
+.banner .banner__poster img{
+  display:block;
+  width:100%;
+}
+
+
+.banner .banner__description{
+  padding:1.2em;
+  color:#fff;
+}
+
+.banner .banner__description .title{
+  font-size:2.5em;
+}
+
+.banner .banner__description .link-trailer{
+  color:#fff;
+  font-size:1em;
+  margin-left:5px;
+}
+
+.banner .banner__description .link-trailer span{
+  position:relative;
+  left:-5px;
+}
+
+
+
+
+
+.banner .banner__description .overview{
+  margin-top:20px;
+}
+
+.banner .banner__description .overview p{
+  margin-top:20px;
+  font-size:.95em;
+  letter-spacing:0.06px;
+}
+
+
+@media screen and (max-width:420px){
+
+  .banner{
+    grid-template-columns:1fr;
+  }
+
+  .banner .banner__description .overview p{
+    margin-top:20px;
+    font-size:.90em;
+    text-align:justify;
+    letter-spacing:0.06px;
+  }
+
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+*,*::after,*::before{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active{
+  outline:none;
+  border:none;
+}
+
+button,input{
+  border:none;
+  background:none;
+}
+
+body{
+  font-family:'Open Sans', sans-serif;
+  background:#f4f4f4;
+  height:100vh;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+}

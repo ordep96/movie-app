@@ -1,0 +1,58 @@
+.modal{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:rgba(52, 73, 94,.4);
+  opacity:0;
+  z-index:-1;
+  transition:.4s all;
+}
+
+
+.modal.active-modal{
+  opacity:1;
+  z-index:12;
+}
+
+.modal .btn-close{
+  position:absolute;
+  top:30px;
+  right:30px;
+  color:#fff;
+  border:none;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  font-size:1.3em;
+  background:rgba(52, 73, 94,.4);
+  box-shadow:0 0 2px rgba(0,0,0,.4);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.modal .btn-close:hover{
+  cursor:pointer;
+}
+
+.modal .content-video{
+  width:800px;
+  height:500px;
+}
+
+.modal .content-video iframe{
+  width:100%;
+  height:100%;
+}
+
+@media screen and (max-width:420px){
+  .modal .content-video{
+    width:100%;
+    height:300px;
+  }
+}
